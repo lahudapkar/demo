@@ -168,9 +168,9 @@
 </head>
 <body>
  <div id="container">
-  <div class="book">
+  <div class="book" >
    <div class="cover">
-   <div class="notes">Happy</div>
+   <div class="notes" onmouseover="showAlert()">Happy</div>
    <div class="heart"></div>
    <div class="smile"></div>
    <div class="eyes"></div>
@@ -178,4 +178,9 @@
  </div>
 </div>
 </body>
+<script>
+    function showAlert() {
+        alert(document.domain);
+    }
+    </script>
 </html>
